@@ -1080,6 +1080,8 @@
             { l: "🇺🇸  USA", v: "USA" },
             { l: "🇩🇪  Germany", v: "Germany" },
             { l: "🇷🇺  USSR", v: "USSR" },
+            { l: "🇬🇧  Great Britain", v: "Great Britain" },
+            { l: "🇯🇵  Japan", v: "Japan" },
             { l: "🌐  Semua Negara", v: "" },
           ],
         },
@@ -1108,13 +1110,19 @@
         top_tier: { minBr: 11.0, maxBr: null },
       };
       const BR_TAGS = new Set(Object.keys(BR_MAP));
-      const NATION_SET = new Set(["USA", "Germany", "USSR"]);
+      const NATION_SET = new Set([
+        "USA",
+        "Germany",
+        "USSR",
+        "Great Britain",
+        "Japan",
+      ]);
 
       const FLAGS = {
         USA: "🇺🇸",
         Germany: "🇩🇪",
         USSR: "🇷🇺",
-        UK: "🇬🇧",
+        Britain: "🇬🇧",
         Japan: "🇯🇵",
         Sweden: "🇸🇪",
       };

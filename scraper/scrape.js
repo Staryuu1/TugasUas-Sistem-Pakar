@@ -10,18 +10,22 @@ const BASE = "https://wiki.warthunder.com";
 const DELAY = 400;
 const HEADLESS = true;
 
-const NATIONS = ["usa", "germany", "ussr"];
-
+//const NATIONS = ["usa", "germany", "ussr", "britain", "japan"]; // untuk scrape semua negara sekaligus
+const NATIONS = ["japan"]; // untuk 1 negara saja
 const PREFIX_MAP = {
-  usa: "us_",
-  germany: "germ_",
-  ussr: "ussr_",
+  //usa: "us_",
+  //germany: "germ_",
+  //ussr: "ussr_",
+  //britain: "uk_",
+  japan: "jp_",
 };
 
 const NATION_LABEL = {
-  usa: "USA",
-  germany: "Germany",
-  ussr: "USSR",
+  //usa: "USA",
+  //germany: "Germany",
+  //ussr: "USSR",
+  // britain: "Britain",
+  japan: "Japan",
 };
 
 const ROMAN = { I: 1, II: 2, III: 3, IV: 4, V: 5, VI: 6, VII: 7 };
