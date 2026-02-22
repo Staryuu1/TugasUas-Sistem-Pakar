@@ -4,7 +4,15 @@ const path = require("path");
 function loadAllTanks() {
   const dataDir = __dirname;
   const skipFiles = ["tags.js", "loader.js"];
-  const allowed = ["usa", "germany", "ussr", "great britain", "japan"];
+  const allowed = [
+    "usa",
+    "germany",
+    "ussr",
+    "great britain",
+    "japan",
+    "france",
+    "italy",
+  ];
   const allTanks = [];
 
   const files = fs
